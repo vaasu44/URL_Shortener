@@ -1,0 +1,30 @@
+ {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <link rel="stylesheet" href="{% static 'error.css' %}" type="text/css" media="screen">
+
+    <body>
+
+        <section>
+            <div class="container">
+                <div class="head">
+                    <h1>4 <span style="color:red;"> 0 </span>4</h1>
+                </div>
+                <div class="image">
+                    <img src="{%static 'bg.gif'%}" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="h2">Looks Like You're Lost</h3>
+                    <p>The page is not found</p>
+                    <a href="http://127.0.0.1:8000">Go Home</a>
+                </div>
+            </div>
+        </section>
+    </body>
+
+</html>
